@@ -2,9 +2,11 @@
   "name": "jwt-auth-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r esm server.js"
+    "dev": "nodemon -r esm server.js",
+    "start": "node server.js",
+    "build": "node server.js"
   },
   "keywords": [],
   "author": "",
