@@ -1,3 +1,14 @@
 openssl genrsa -out private.pem 3072
 
 openssl -in private.pem -pubout -out public.pem
+
+
+docker command
+build : 
+       docker build -t image-name . 
+run    :
+        docker run -d --rm /
+       -p 4000:4000 /
+       --name express-auth-container /
+       -v C:\Users\shubh\desktop\saurav\Node_Microservice\auth-service/:/app /
+       express-auth-image

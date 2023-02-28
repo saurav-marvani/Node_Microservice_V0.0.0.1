@@ -1,0 +1,12 @@
+GET https://localhost:3000/job
+
+POST  https://localhost:3000/job
+Content-Type: application/json
+{
+    "company": "apple",
+    "title": "Golang Job here to hire",
+    "salaray": "$5000/mo",
+}
+
+
+// 
